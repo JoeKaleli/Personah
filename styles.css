@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    background: white;
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,21 +44,16 @@ display: flex ;
     margin: 0px auto;
     box-shadow: 0px 0px 3px;
     display: flex;
+    justify-content: space-between;
+    
 }
 .hero .heroleft
 {
     height: 100%;
-    width: 50%;
+    width: 45%;
     padding: 40px;
-    flex-direction: column;
-    justify-content: ;
+    
 
-}
-.hero .heroright
-{
-    height: 100%;
-    width: 50%;
-    background-color: black;
 }
 .hero .heroleft h1 
 {
@@ -74,7 +70,7 @@ display: flex ;
 }
 .hero .heroleft .my_buttons button 
 {
-    background-color: red;
+    background-color: rgb(68, 3, 3);
     padding: 20px;
     color: white;
     border: none;
@@ -86,11 +82,7 @@ display: flex ;
 {
     margin-left: 40px;
 }
-.hero .heroleft .icons div
-{
-    border: 3px solid black;
-    width: 60;
-    height:60 ;
-    margin-right: 20px;
-    border-radius: 16px;
-}
+
+  
+
+/* Hero right */
