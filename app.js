@@ -20,3 +20,35 @@ if (condition=="Rainy") {
 accessHere("Kaleli")
 console.log("Kaleli")*/
 
+
+//Logical operators
+/*
+function canBeAllowedEntry(age, hasId, appearance)
+{
+    if (hasId==true && nationality == "Kenyan") {
+        console.log("Allow entry")
+    } else if((canSpeakKenyan == true || nationality =="Kenyan") && appearance =="old"){
+        console.log("Allow entry")
+    } else {
+        console.log("Deny Entry")
+    }
+}
+canBeAllowedEntry("Kenyan", true, true, "old")*/
+/*
+
+let add TwoNumbers =(num1, num2) => 
+{
+    sum = num1+num2
+    return sum
+}
+let result = addTwoNumbers(5,7)
+console.log(result)*/
+
+
+//let addtwoNumbers = (num1,num2) => num1+num2 
+
+let num=1
+while (num<=100) {
+    console.log (num)
+    num ++
+}
